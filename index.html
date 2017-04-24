@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de Datos con Html</title>
+</head>
+<body>
+<div align="center">
+<h1>Formulario de Datos</h1>
+
+<form action="">
+	<p>
+		<label for="nombre"><b>Nombre</b></label>
+		<br/>
+		<input type="text" placeholder="Ingrese Nombre" name="nombre" required/>
+		<br />
+	</p>
+	<p>
+		<label for="apellido"><b>Apellido</b></label>
+		<br />
+		<input type="text" placeholder="Ingrese Apellido" name="apellido" required />
+		<br />
+	</p>
+	<p>
+		<label for="telefono"><b>Telefono</b></label>
+		<br />
+		<input type="tel" placeholder="Ingrese Telefono" name="telefono" required />
+		<br />
+	</p>
+	<p>
+		<label for="carro">Escoge tu carro para continuar</label>
+		<br />
+		<select name="carro" id="" required/>
+			<option value="Suzuki">Suzuki</option>
+			<option value="Volvo">Volvo</option>
+			<option value="Mercedes">Mercedes</option>
+			<option value="Jeep">Jeep</option>
+			<option value="Subaru">Subaru</option>
+		</select>
+	</p>	
+	<p>
+		<label for=""><b>Email</b></label>
+		<br>
+		<input type="email" placeholder="Ingrese email" required />
+		<br>
+	</p>
+	<p>
+		<label for="pw"><b>Crea tu contraseña</b></label><br>
+		<input type="password" name="pw" pattern=".{6,}" placeholder="6 o mas caracteres" required/>
+	</p>
+	<p>
+		<input type="submit" value="send">
+	</p>
+
+</form>
+	</div>
+</body>
+</html>
